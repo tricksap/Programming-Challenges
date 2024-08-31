@@ -1,0 +1,27 @@
+## Problem Statement
+
+You are given an array of student objects. Each student has the following properties:
+
+- **name**: The student's name (a string).
+- **age**: The student's age (an integer).
+- **major**: The student's major (a string).
+- **grades**: An object that contains the grades for three subjects: math, english, and programming.
+- **year**: The year of study (an integer).
+
+Your task is to write a function that performs the following operations:
+
+### 1. Filter Students by Major
+
+Write a function `filterByMajor(students, major)` that filters students by their major and returns an array of student objects who are in that major.
+
+### 2. Calculate Average Grade
+
+Write a function `calculateAverageGrade(students)` that calculates and returns the average grade of each student across all subjects. The function should return an array of objects with the student's name and their average grade.
+
+### 3. Find the Top Student in Programming
+
+Write a function `topStudentInProgramming(students)` that returns the name of the student with the highest programming grade.
+
+### 4. Find Average Age of Students
+
+Write a function `averageAge(students)` that calculates and returns the average age of all students.
